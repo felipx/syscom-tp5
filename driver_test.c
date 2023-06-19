@@ -9,4 +9,6 @@ int main(void)
         write(fd, &i, 1);
         sleep(1);
     }
+
+    close(fd);
 }
